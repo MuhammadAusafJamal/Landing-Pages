@@ -1,0 +1,327 @@
+body{
+    background-image: url(./images/BGpic.jpeg)
+
+}
+
+header{
+    box-shadow: 1 1;
+    background-color: #f5f5f5;
+    margin: 10 10 10 10;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #fff;
+    text-align: center;   
+}
+
+nav ul li{
+    display: inline;
+    padding: 40px 40px;
+}
+nav ul {
+    padding: 40px 0px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+
+li:nth-child(1){
+   background-color: #919191;
+   border-bottom-left-radius: 6px;
+}
+
+
+li:nth-child(2){
+    border-bottom: 5px solid red;
+}
+li:hover:nth-child(2){
+    background-color: red;
+}
+
+
+li:nth-child(3){
+    border-bottom: 5px solid orangered;
+}
+li:hover:nth-child(3){
+    background-color: orangered;
+}
+
+
+
+li:nth-child(4){
+    border-bottom: 5px solid yellow;
+}
+li:hover:nth-child(4){
+    background-color: yellow;
+}
+li:hover:nth-child(4) a{
+    color: white;
+}
+
+
+
+li:nth-child(5){
+    border-bottom: 5px solid green;
+}
+li:hover:nth-child(5){
+    background-color: green;
+}
+li:hover:nth-child(5) a{
+    color: white;
+}
+
+
+
+li:nth-child(6){
+    border-bottom: 5px solid skyblue;
+}
+li:hover:nth-child(6){
+    background-color: skyblue;
+}
+li:hover:nth-child(6) a{
+    color: white;
+}
+
+
+
+li:nth-child(7){
+    border-bottom: 5px solid darkblue;
+    border-bottom-right-radius: 6px;
+}
+li:hover:nth-child(7){
+    background-color: darkblue;
+}
+li:hover:nth-child(7) a{
+    color: white;
+}
+
+.imagespok {
+    width: 70%;
+    height: 1300px;
+    margin-left: 15%;
+}
+
+
+.section1{
+width: 60%;
+height: 100px;
+background-color: black;
+float: left;
+}
+.section2{
+width: 38%;
+margin-left: 2% ;
+height: 100px;
+background-color: blue;
+float: right;
+}
+
+.fig img{
+width: 100%;
+}
+
+.clear{
+clear: both;
+}
+
+.fig{
+margin: auto;
+}
+.cap{
+background-color: #919191;
+padding: 10px 40px;
+}
+
+.blog-2-1{
+float: left;
+width: 48%;
+margin-top: 20px ;
+}
+.blog-4{
+margin-top: 20px ;
+}
+
+.blog-5{
+margin-top: 20px ;
+}
+    
+.blog-2-2{
+float: right;
+width: 48%;
+margin-left: 2%;
+margin-top: 20px ;
+
+}
+.slider{
+width: 100%;
+height: 500px;
+background-color: grey;
+border: 1px solid black;
+}
+.slid-1{
+width: 20%;
+float: left;
+color: #fff;
+}
+.slid-2{
+width: 20%;
+float: left;
+color: #fff;
+}
+.slid-3{
+width: 20%;
+float: left;
+color: #fff;
+}
+.slid-4{
+width: 20%;
+float: left;
+color: #fff;   
+}
+.slid-5{
+width: 20%;
+float: left;
+color: #fff;
+}
+
+.cap2{
+padding: 10px;
+text-align: center;
+}
+
+.imagespok-2{
+width: 50%;
+background-color: #fff;
+margin: 0% auto;
+margin-top: 120px;
+}
+
+.imagespok-3{
+    width: 50%;
+    margin: 0% auto;
+    background-color: #fff;
+    margin-bottom: 120px;
+
+
+}
+
+.img-1{
+float: left;
+width: 30%;
+margin-right: 3%;
+margin-left: 2%;
+margin-top: 60px;
+background-color: orange;
+}
+.img-2{
+float: left;
+width: 30%;
+margin-right: 3%;
+margin-top: 40px;
+background-color: blue;
+}
+.img-3{
+float: left;
+width: 30%;
+margin-top: 60px;
+margin-right: 2%;
+background-color: red;
+}
+
+.img-1 > img{
+width: 100%;
+}
+.img-2 > img{
+width: 100%;
+}
+.img-3 > img{
+width: 100%;
+}
+
+.cap-3{
+padding: 10px 30px;
+}
+.cap-3-2{
+padding: 10px 30px;
+}
+.cap-3-3{
+padding: 10px 30px;
+}
+
+h3{
+color: white;
+}
+
+.img-4{
+float: left;
+width: 30%;
+margin-right: 3%;
+margin-left: 2%;
+margin-top: 60px;
+background-color: peachpuff;
+}
+.img-5{
+float: left;
+width: 30%;
+margin-right: 3%;
+margin-top: 40px;
+background-color: green;
+}
+.img-6{
+float: left;
+width: 30%;
+margin-top: 60px;
+margin-right: 2%;
+background-color: violet;
+}
+
+.img-4 > img{
+width: 100%;
+}
+.img-5 > img{
+width: 100%;
+}
+.img-6 > img{
+width: 100%;
+}
+
+.footer {
+width: 100%;
+height: 400px;
+background-color: #1f1f1f;
+}
+.footer-sec-1{
+width: 20%;
+color: #616161;
+float: left;
+margin-top: 2%;
+margin-left: 12%;
+}
+.footer-sec-1 h3{
+margin-left: 40px;
+}
+.footer-sec-1 ul li {
+list-style: none;
+border: none;
+padding: 10px;
+}
+.footer-sec-2{
+height: 34px; 
+width: 20%;
+float: left;
+margin-left: 10%;
+margin-top: 3.5%;
+}
+.footer-sec-3{
+width: 20%;
+float: left;
+color: #fff;
+margin-left: 10%;
+margin-top: 2%;
+
+}
